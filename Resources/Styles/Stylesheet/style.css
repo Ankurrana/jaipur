@@ -1,0 +1,132 @@
+@font-face{
+			font-family: logofont;
+			src: url("../Fonts/Jellyka_Estrya_Handwriting.ttf");
+		}
+		@font-face{
+			font-family: logofont_IE;
+			src: url("../Fonts/Jellyka_Estrya_Handwriting.eot");
+		}
+		@font-face{
+			font-family: headingfont;
+			src: url("../Fonts/FortuneCity.ttf");
+		}
+		@font-face{
+			font-family: textfont;
+			src: url("../Fonts/DancingScript.ttf");
+		}
+		
+		.mainContainer{
+			
+			background-color: rgb(246, 244, 240);
+		}
+		.centralContainer{
+			background-color: #FFE8F1;
+			height: 250px;
+			margin:auto;
+		}
+		.contentSection{
+			min-width: 1050px;
+			max-width: 1150px;
+
+			width:70%;
+			margin:auto;
+			/*background-color: lightblue;*/
+		}
+		.logo{
+			font-family: logofont,logofont_IE;
+			font-size: 150px;
+			position: relative;
+			left:20px;
+		}
+		ul li{
+			display: inline;
+			text-decoration: none;
+		}
+
+		.column{
+			display: inline;
+			width:inherit;
+			margin: auto;
+			padding:45px;
+			text-decoration: none;
+		}
+		.navigationBar{
+			width:100%;
+			min-width: 100%;
+			padding: 1px;
+			margin:auto;
+			background-color: #FFFFC2;
+		}
+		.mainBody{
+			background-color:#D1FFC2;
+			height: 1200px;
+			padding: 20px;
+		}
+		.majorHeading{
+			font-family: textfont;
+			font-size: 30px;
+			padding: 5px;
+		}
+		.component{
+			margin-top: 170px;
+			margin:30px;
+			min-height:350px;
+		}
+
+		.component .texualContent{
+			text-align: justify;
+			width:50%;
+			float:left;
+			font-family: textfont;
+			font-size: 20px;
+			margin-top: 40px;
+
+
+		}
+		.component .image{
+			width:40%;
+			float:left;
+			margin-top: 40px;
+			
+		}
+		.component .image img{
+			vertical-align: center;
+			position:relative;
+			left:90px;
+			top:10px;
+			border-radius: 3px;
+			margin:auto;
+			height:250px;
+			width:250px;
+			
+		}
+
+		.component .image .rightimage{
+			-webkit-transform: rotate(-5deg);
+			-moz-transform:rotate(-5deg);
+			-ms-transform:rotate(-5deg);
+
+			box-shadow: 10px 10px 5px #888888;
+		}
+		.component .image .leftimage{
+			-webkit-transform: rotate(5deg);
+			-moz-transform:rotate(5deg);
+			-ms-transform:rotate(5deg);
+			box-shadow: -10px 10px 5px #888888;
+		}	
+		footer{
+			font-family: textfont;
+			font-size: 20px;
+			padding: 10px;
+			background-color: rgb(252, 248, 242);
+			height:100px;
+			width:100%;
+			text-align: center;
+		}
+		a,a:hover,a:visited{
+			text-decoration: none;
+			color:#0099FF;
+		}
+		a:active{
+			color: blue;
+		}

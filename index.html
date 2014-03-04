@@ -1,0 +1,94 @@
+<!doctype>
+<html>
+<head>
+	<title>Jaipur|The Pink City</title>
+		<link rel="stylesheet" type="text/css" href="Resources/Styles/Stylesheet/style.css">
+		<script src="Resources/Scripts/shiv.js"></script>
+	<style>
+		body{
+			background-image: url("Resources/Images/wall.jpg");
+			background-size: 100% 100%;
+		}
+		
+
+		.frontContent{
+			position: fixed;
+			left:70%;
+			top:20%;
+			height: 500px;
+			/*background-color: yellow;*/
+		}
+
+		.whitespace{
+			width:100%;
+			position:fixed;
+			opacity:0.3;
+			height: 500px;
+			background-color: white;
+			top:100px;
+			left:-10px;
+			margin:auto;	
+		}
+		.frontContent{
+			font-family: logofont_IE,logofont;
+			font-size: 100px;
+		}
+
+		.links{
+			position: fixed;
+			left:72%;
+			top:35%;
+		}
+
+		.link{
+			position: relative;
+			padding: 8px;
+			width:200px;
+			background-color: lightgreen;
+			border-radius: 20px;
+			margin:2px;
+		}
+		.link{
+			-moz-transition: -moz-transform 1s; /* Firefox 4 */
+			-webkit-transition: -webkit-transform 1s; /* Safari and Chrome */
+			-o-transition:-o-transform 1s; /* Opera */
+			-ms-transition:-ms-transform 1s;
+		}
+
+		.link:hover{
+			text-decoration: none;
+			transform:rotateX(360deg);
+			-moz-transform:rotateX(360deg); /* Firefox 4 */
+			-webkit-transform:rotateX(360deg); /* Safari and Chrome */
+			-o-transform:rotateX(360deg); /* Opera */
+			-ms-transform:rotateX(360deg)
+		}
+		a{
+			color: rgb(204, 51, 51);
+			border-bottom: 1px solid rgb(204, 51, 51);
+			text-decoration: none;
+		}
+		a:focus {
+			color: rgb(204, 51, 51);
+			border-bottom: 1px solid rgb(204, 51, 51);
+		}
+
+	</style>
+
+</head>
+<body background="Resources/Images/wall.jpg">
+	<div class="mainContainer">
+		<div class="whitespace"></div>
+		<div class="frontContent">Jaipur-The Pink City</div>
+		<div class="links">
+			<a href="about.html"><div class="link" style="left:2px">ABOUT JAIPUR</div></a>
+			<a href="attractions.html"><div class="link" style="left:32px">MAJOR ATTRACTIONS</div></a>
+			<a href="temples.html"><div class="link" style="left:62px">TEMPLES</div></a>
+			<a href="festivals.html"><div class="link" style="left:92px">FESTIVALS</div></a>
+			<!-- <a href=""><div class="link" style="left:122px">PEOPLE</div></a> -->
+			<a href="map.html"><div class="link" style="left:122px">MAP</div></a>
+			
+		</div> 
+
+</body>
+</html>
