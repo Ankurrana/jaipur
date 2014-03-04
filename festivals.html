@@ -10,21 +10,33 @@
 	</style>
 </head>
 <body>
+	<div class="fixed_items">
+		<div class="topper_button">
+			<div onclick="to_top()" id="toupperbutton"><img src="Resources/Images/totop.png"></img></div>
+		</div>
+		<div class="date_box">
+
+		</div>
+	</div>
 	<div class="mainContainer">
 		<div class="centralContainer">
 			<div class="contentSection">
 				<div class="logo">Jaipur-The Pink City</div>
 				<div class="navigationBar">
-					<ul>
-						<a href="index.html"><div class="column"><li>HOME</li></div ></a> |
-						<a href="about.html"><div class="column"><li>ABOUT</li></div ></a> | 
-						<a href="temples.html"><div class="column"><li>TEMPLES</li></div ></a> | 
-						<a href="attractions.html"><div class="column"><li>ATTRACTIONS</li></div ></a> | 
-						<a href="festivals.html"><div class="column"><li>FESTIVALS</li></div ></a> | 
-						<a href="map.html"><div class="column"><li>MAP</li></div ></a> | 
+					<table id="t_nav">
+						<tr>
+					
+						<td><a href="index.html"><div class="column1"><div>HOME</div></div ></a></td>
+						<td><a href="about.html"><div class="column1"><div>ABOUT</div></div ></a></td>
+						<td><a href="temples.html"><div class="column1"><div>TEMPLES</div></div ></a></td>
+						<td><a href="attractions.html"><div class="column1"><div>ATTRACTIONS</div></div ></a></td> 
+						<td><a href="festivals.html"><div class="column1"><div>FESTIVALS</div></div ></a></td> 
+						<td><a href="map.html"><div class="column1"><div>MAP</div></div ></a></td> 
  
-		
-					</ul>
+						
+					
+					</tr>
+					</table>
 				</div> 
 				<div class="mainBody">
 					<div class="majorHeading">Fairs and Festivals</div><hr>
@@ -125,6 +137,7 @@
 		</div>
 	</div> 
 	
+		<script src="Resources/Scripts/scripts.js"></script>
 
 </body>
 </html>

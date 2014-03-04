@@ -130,3 +130,29 @@
 		a:active{
 			color: blue;
 		}
+		img{
+			width:100%;
+		}
+		#t_nav{
+			width:100%;
+			height:50px;
+			table-layout: fixed;
+			text-align: center;
+		}
+		.fixed_items{
+			position: fixed;
+		}
+
+		/*the opadity of totopbutton is altered by javascript! keep it in mind while making any changes*/
+		.fixed_items .topper_button{
+			position: fixed;
+			opacity: 0.5;
+			bottom:10px;
+			right:10px;
+		}
+		.fixed_items .topper_button:hover{
+			opacity :1;
+		}
+		.fixed_items .date_box{
+			position: fixed;
+		}
